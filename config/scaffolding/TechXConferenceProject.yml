@@ -8,7 +8,23 @@ packages:
   gitUsername: chkoprivate
   gitBranch: main
 - name: OrderShipment
+  version: "1.0"
   gitServerName: chko_git
   gitUrl: https://github.com/chkoprivate
   gitUsername: chkoprivate
   gitBranch: main
+services:
+- serviceName: project.techxconference.integrations:getCustomerbyID
+  packages:
+  - name: TechXConferenceProject
+    version: "1.0"
+  - name: OrderShipment
+    version: "1.0"
+- serviceName: OrderShipment.impl:getCustomerbyID
+  packages:
+  - name: OrderShipment
+    version: "1.0"
+- serviceName: pub.cache:get
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.1018
