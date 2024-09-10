@@ -13,7 +13,7 @@
         <number name="createdDate" type="Long">1725986374789</number>
         <value name="lastModifiedBy">christian</value>
         <value name="lastModifiedByUserId">25211b232f2f4600a5aedef6010e02bf</value>
-        <number name="lastModifiedDate" type="Long">1725987550825</number>
+        <number name="lastModifiedDate" type="Long">1725987682126</number>
       </record>
       <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
@@ -30,7 +30,7 @@
         <record name="node_hints" javaclass="com.wm.util.Values">
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">Header</value>
+        <value name="field_name">OrderHeader</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
