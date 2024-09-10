@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/chkoprivate/TechXConferenceProject
   gitUsername: chkoprivate
   gitBranch: main
+- name: CustomerData
+  gitServerName: chko_git
+  gitUrl: https://github.com/chkoprivate
+  gitUsername: chkoprivate
+  gitBranch: main
 services:
 - serviceName: project.techxconference.integrations:getCustomerbyID
   packages:
