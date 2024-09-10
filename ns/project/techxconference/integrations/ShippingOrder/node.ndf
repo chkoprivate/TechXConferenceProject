@@ -60,14 +60,13 @@
       <value name="node_type">record</value>
       <value name="node_subtype">unknown</value>
       <value name="is_public">false</value>
-      <value name="field_type">record</value>
+      <value name="field_type">recref</value>
       <value name="field_dim">0</value>
       <value name="nillable">true</value>
       <value name="form_qualified">false</value>
       <value name="is_global">false</value>
-      <array name="rec_fields" type="record" depth="1">
-      </array>
       <value name="modifiable">true</value>
+      <value name="rec_ref">project.techxconference.documenttypes:SimpleOrder</value>
     </record>
   </record>
   <value name="description"></value>
@@ -84,7 +83,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">christian</value>
-    <value name="lastModifiedDate">1725986954936</value>
+    <value name="lastModifiedDate">1725988194505</value>
     <value name="displayName">ShippingOrder</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -95,7 +94,6 @@
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
-        <value name="nodePathForDebug">0</value>
         <array name="map" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
@@ -106,6 +104,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">0</value>
       </record>
       <record name="/0/0" javaclass="com.wm.util.Values">
         <value name="itemType">SERVICES</value>
@@ -124,6 +123,7 @@
         <null name="outputMapSet"/>
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">0.0</value>
       </record>
     </record>
   </record>
