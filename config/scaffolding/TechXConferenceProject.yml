@@ -34,3 +34,19 @@ services:
   packages:
   - name: CustomerData
     version: "1.0"
+- serviceName: CustomerData.utils.cache:getCacheData
+  packages:
+  - name: CustomerData
+    version: "1.0"
+- serviceName: pub.cache:getKeys
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.1018
+- serviceName: pub.cache:getAll
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.1018
+- serviceName: pub.document:sortDocuments
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.1018
