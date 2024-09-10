@@ -39,35 +39,13 @@
       <value name="node_type">record</value>
       <value name="node_subtype">unknown</value>
       <value name="is_public">false</value>
-      <value name="field_type">record</value>
+      <value name="field_type">recref</value>
       <value name="field_dim">0</value>
       <value name="nillable">true</value>
       <value name="form_qualified">false</value>
       <value name="is_global">false</value>
-      <array name="rec_fields" type="record" depth="1">
-        <record javaclass="com.wm.util.Values">
-          <value name="node_type">field</value>
-          <value name="node_subtype">unknown</value>
-          <value name="node_comment"></value>
-          <record name="node_hints" javaclass="com.wm.util.Values">
-            <value name="field_largerEditor">false</value>
-            <value name="field_password">false</value>
-            <value name="field_usereditable">false</value>
-          </record>
-          <value name="is_public">false</value>
-          <value name="field_name">documents</value>
-          <value name="field_type">record</value>
-          <value name="field_dim">0</value>
-          <value name="field_opt">true</value>
-          <value name="nillable">true</value>
-          <value name="form_qualified">false</value>
-          <value name="is_global">false</value>
-          <array name="rec_fields" type="record" depth="1">
-          </array>
-          <value name="modifiable">true</value>
-        </record>
-      </array>
       <value name="modifiable">true</value>
+      <value name="rec_ref">project.techxconference.documenttypes:Customer</value>
     </record>
   </record>
   <value name="description"></value>
@@ -84,7 +62,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">christian</value>
-    <value name="lastModifiedDate">1725977773481</value>
+    <value name="lastModifiedDate">1725978144037</value>
     <value name="displayName">getCustomerbyID</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -97,9 +75,9 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">CustomerData.utils.cache:getCacheData</value>
-          <value name="serviceName">CustomerData.utils.cache:getCacheData</value>
-          <value name="displayName">getCacheData</value>
+          <value name="description">CustomerData.impl:getCustomerbyID</value>
+          <value name="serviceName">CustomerData.impl:getCustomerbyID</value>
+          <value name="displayName">getCustomerbyID</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
@@ -110,7 +88,6 @@
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <value name="nodePathForDebug">0</value>
-        <Boolean name="hasBreakPoint">true</Boolean>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="name">REPEAT</value>
@@ -126,6 +103,7 @@
         <value name="nodePathNew">1</value>
         <number name="nodeIndex" type="Long">1</number>
         <number name="lineNumberForDebug" type="Long">2</number>
+        <value name="nodePathForDebug">1</value>
       </record>
       <record name="/1/0" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -146,6 +124,8 @@
         <number name="lineNumberForDebug" type="Long">3</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">1.0</value>
       </record>
     </record>
   </record>
