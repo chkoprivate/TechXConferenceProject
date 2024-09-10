@@ -96,24 +96,4 @@
   <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
-
-<LOOP IN-ARRAY="/documents">
-  <COMMENT></COMMENT>
-
-  <!-- nodes -->
-
-<INVOKE NAME="Flow" SERVICE="pub.flow:debugLog">
-  <COMMENT></COMMENT>
-
-  <!-- nodes -->
-
-<MAP MODE="INPUT">
-  <COMMENT></COMMENT>
-</MAP>
-
-<MAP MODE="OUTPUT">
-  <COMMENT></COMMENT>
-</MAP>
-</INVOKE>
-</LOOP>
 </FLOW>
