@@ -63,7 +63,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">christian</value>
-    <value name="lastModifiedDate">1725973067953</value>
+    <value name="lastModifiedDate">1725976299313</value>
     <value name="displayName">getCustomerbyID</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -76,9 +76,9 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">CustomerData.impl:getCustomerbyID</value>
-          <value name="serviceName">CustomerData.impl:getCustomerbyID</value>
-          <value name="displayName">getCustomerbyID</value>
+          <value name="description">CustomerData.utils.cache:getCacheData</value>
+          <value name="serviceName">CustomerData.utils.cache:getCacheData</value>
+          <value name="displayName">getCacheData</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
