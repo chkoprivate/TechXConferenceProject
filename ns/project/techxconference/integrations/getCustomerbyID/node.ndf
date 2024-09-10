@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">christian</value>
-    <value name="createdDate">1725883310490</value>
-    <value name="lastModifiedDate">1725883310490</value>
+    <value name="lastModifiedBy">christian</value>
+    <value name="lastModifiedDate">1725971664255</value>
     <value name="displayName">getCustomerbyID</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -55,13 +54,13 @@
         <null name="name"/>
         <value name="itemType">PACKAGES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">OrderShipment</value>
-          <value name="groupName">OrderShipment;1.0</value>
+          <value name="groupDisplayName">CustomerData</value>
+          <value name="groupName">CustomerData;1.0</value>
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">OrderShipment.impl:getCustomerbyID</value>
-          <value name="serviceName">OrderShipment.impl:getCustomerbyID</value>
+          <value name="description">CustomerData.impl:getCustomerbyID</value>
+          <value name="serviceName">CustomerData.impl:getCustomerbyID</value>
           <value name="displayName">getCustomerbyID</value>
         </record>
         <null name="outputMapSet"/>
