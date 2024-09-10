@@ -8,6 +8,7 @@ packages:
   gitUsername: chkoprivate
   gitBranch: main
 - name: CustomerData
+  version: "1.0"
   gitServerName: chko_git
   gitUrl: https://github.com/chkoprivate
   gitUsername: chkoprivate
@@ -19,6 +20,8 @@ services:
     version: "1.0"
   - name: OrderShipment
     version: "1.0"
+  - name: CustomerData
+    version: "1.0"
 - serviceName: OrderShipment.impl:getCustomerbyID
   packages:
   - name: OrderShipment
@@ -27,3 +30,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.1018
+- serviceName: CustomerData.impl:getCustomerbyID
+  packages:
+  - name: CustomerData
+    version: "1.0"
