@@ -45,15 +45,14 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">christian</value>
-    <value name="createdDate">1726040106492</value>
-    <value name="lastModifiedDate">1726040106492</value>
+    <value name="lastModifiedBy">christian</value>
+    <value name="lastModifiedDate">1726040121183</value>
     <value name="displayName">shipOrder</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
       </record>
     </record>
   </record>
