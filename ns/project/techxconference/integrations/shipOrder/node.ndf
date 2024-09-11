@@ -104,7 +104,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">christian</value>
-    <value name="lastModifiedDate">1726049807337</value>
+    <value name="lastModifiedDate">1726050000795</value>
     <value name="displayName">shipOrder</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -135,16 +135,21 @@
           <value name="serviceName">pub.date:dateBuild</value>
           <value name="transformerSupport">true</value>
         </record>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupName">date</value>
-          <value name="groupDisplayName">Date</value>
-        </record>
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
         </array>
       </record>
       <null name="/0/1"/>
       <null name="/0/2"/>
       <null name="/0/3"/>
+      <null name="/0/4"/>
+      <null name="/0/5"/>
+      <null name="/0/6"/>
+      <null name="/0/7"/>
+      <null name="/0/8"/>
+      <null name="/0/9"/>
+      <null name="/0/10"/>
+      <null name="/0/11"/>
+      <null name="/0/12"/>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
