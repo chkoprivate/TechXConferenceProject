@@ -137,5 +137,29 @@
 
 <MAPCOPY FROM="/SimpleOrder;4;0;project.techxconference.documenttypes:SimpleOrder/Items;4;1;project.techxconference.documenttypes:Items" TO="/Shipment;4;0;project.techxconference.documenttypes:Shippment/Items;4;1;project.techxconference.documenttypes:Items">
 </MAPCOPY>
+
+<MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/first-name;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shippment/ShipTo;2;0/first-name;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/last-name;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shippment/ShipTo;2;0/last-name;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/company-name;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shippment/ShipTo;2;0/company-name;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/Address;4;0;project.techxconference.documenttypes:Address/Address;2;0/street;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shippment/ShipTo;2;0/street;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/Address;4;0;project.techxconference.documenttypes:Address/Address;2;0/city;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shippment/ShipTo;2;0/city;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/Address;4;0;project.techxconference.documenttypes:Address/Address;2;0/state;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shippment/ShipTo;2;0/state;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/Address;4;0;project.techxconference.documenttypes:Address/Address;2;0/country;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shippment/ShipTo;2;0/country;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/Address;4;0;project.techxconference.documenttypes:Address/Address;2;0/zip;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shippment/ShipTo;2;0/zip;1;0">
+</MAPCOPY>
 </MAP>
 </FLOW>
