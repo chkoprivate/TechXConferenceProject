@@ -66,7 +66,7 @@
       <value name="form_qualified">false</value>
       <value name="is_global">false</value>
       <value name="modifiable">true</value>
-      <value name="rec_ref">project.techxconference.documenttypes:SimpleOrder</value>
+      <value name="rec_ref">project.techxconference.documenttypes:Shippment</value>
     </record>
   </record>
   <value name="description"></value>
@@ -83,7 +83,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">christian</value>
-    <value name="lastModifiedDate">1725988194505</value>
+    <value name="lastModifiedDate">1726040058616</value>
     <value name="displayName">ShippingOrder</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -94,36 +94,6 @@
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
-        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
-        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
-        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
-        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
-        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
-        <value name="nodePathForDebug">0</value>
-      </record>
-      <record name="/0/0" javaclass="com.wm.util.Values">
-        <value name="itemType">SERVICES</value>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
-        <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="transformerSupport">true</value>
-          <value name="displayName">dateTimeBuild</value>
-          <value name="serviceName">pub.date:dateTimeBuild</value>
-          <Boolean name="enabled">true</Boolean>
-          <double name="rank" type="Double">0.7</double>
-        </record>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupName">date</value>
-          <value name="groupDisplayName">Date</value>
-        </record>
-        <null name="outputMapSet"/>
-        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
-        <value name="nodePathForDebug">0.0</value>
       </record>
     </record>
   </record>
