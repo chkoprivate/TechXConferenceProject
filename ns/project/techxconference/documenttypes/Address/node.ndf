@@ -13,7 +13,7 @@
         <number name="createdDate" type="Long">1725987160424</number>
         <value name="lastModifiedBy">christian</value>
         <value name="lastModifiedByUserId">25211b232f2f4600a5aedef6010e02bf</value>
-        <number name="lastModifiedDate" type="Long">1726040698744</number>
+        <number name="lastModifiedDate" type="Long">1726040943868</number>
       </record>
       <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
@@ -137,6 +137,7 @@
             <value name="field_name">web</value>
             <value name="field_type">string</value>
             <value name="field_dim">0</value>
+            <value name="field_opt">true</value>
             <value name="nillable">true</value>
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
