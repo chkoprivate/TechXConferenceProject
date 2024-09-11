@@ -103,7 +103,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">christian</value>
-    <value name="lastModifiedDate">1726046695913</value>
+    <value name="lastModifiedDate">1726049099777</value>
     <value name="displayName">shipOrder</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -114,7 +114,6 @@
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
-        <value name="nodePathForDebug">0</value>
         <array name="map" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
@@ -125,8 +124,17 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">0</value>
       </record>
       <null name="/0/0"/>
+      <null name="/0/1"/>
+      <null name="/0/2"/>
+      <null name="/0/3"/>
+      <null name="/0/4"/>
+      <null name="/0/5"/>
+      <null name="/0/6"/>
+      <null name="/0/7"/>
+      <null name="/0/8"/>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
