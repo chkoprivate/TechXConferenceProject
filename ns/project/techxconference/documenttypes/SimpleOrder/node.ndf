@@ -13,7 +13,7 @@
         <number name="createdDate" type="Long">1725986374789</number>
         <value name="lastModifiedBy">christian</value>
         <value name="lastModifiedByUserId">25211b232f2f4600a5aedef6010e02bf</value>
-        <number name="lastModifiedDate" type="Long">1725987941226</number>
+        <number name="lastModifiedDate" type="Long">1726046368485</number>
       </record>
       <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
@@ -49,10 +49,11 @@
         <value name="is_public">false</value>
         <value name="field_name">Items</value>
         <value name="field_type">recref</value>
-        <value name="field_dim">0</value>
+        <value name="field_dim">1</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
+        <value name="is_soap_array_encoding_used">true</value>
         <value name="modifiable">true</value>
         <value name="rec_ref">project.techxconference.documenttypes:Items</value>
       </record>
