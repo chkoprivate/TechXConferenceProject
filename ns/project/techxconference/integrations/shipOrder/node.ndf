@@ -76,7 +76,7 @@
             <value name="field_usereditable">false</value>
           </record>
           <value name="is_public">false</value>
-          <value name="field_name">Shipment</value>
+          <value name="field_name">ShipTo</value>
           <value name="field_type">recref</value>
           <value name="field_dim">0</value>
           <value name="nillable">true</value>
@@ -103,7 +103,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">christian</value>
-    <value name="lastModifiedDate">1726049176218</value>
+    <value name="lastModifiedDate">1726049447833</value>
     <value name="displayName">shipOrder</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
