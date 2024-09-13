@@ -74,10 +74,9 @@
             <value name="field_largerEditor">false</value>
             <value name="field_password">false</value>
             <value name="field_usereditable">false</value>
-            <value name="id">30a5b8d0-7026-11ef-86ee-d75fb124247a</value>
           </record>
           <value name="is_public">false</value>
-          <value name="field_name">ShipTo</value>
+          <value name="field_name">Shippment</value>
           <value name="field_type">recref</value>
           <value name="field_dim">0</value>
           <value name="nillable">true</value>
@@ -104,13 +103,14 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">christian</value>
-    <value name="lastModifiedDate">1726244273747</value>
+    <value name="lastModifiedDate">1726244369509</value>
     <value name="displayName">shipOrder</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
         <value name="itemType">ALL</value>
         <value name="name">NEW</value>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
   </record>
