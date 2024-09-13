@@ -66,3 +66,9 @@ services:
     version: "1.0"
   - name: CustomerData
     version: "1.0"
+- serviceName: project.techxconference.integrations:getCustomerData
+  packages:
+  - name: TechXConferenceProject
+    version: "1.0"
+  - name: CustomerData
+    version: "1.0"
