@@ -310,7 +310,19 @@
 </DATA>
 </MAPSET>
 
-<MAPCOPY FROM="/Customer;4;0;CustomerData.docs:Customer/address;4;0;CustomerData.docs:Address" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0">
+<MAPCOPY FROM="/Customer;4;0;CustomerData.docs:Customer/address;4;0;CustomerData.docs:Address/street;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0/street;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Customer;4;0;CustomerData.docs:Customer/address;4;0;CustomerData.docs:Address/city;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0/city;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Customer;4;0;CustomerData.docs:Customer/address;4;0;CustomerData.docs:Address/state;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0/state;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Customer;4;0;CustomerData.docs:Customer/address;4;0;CustomerData.docs:Address/country;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0/country;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Customer;4;0;CustomerData.docs:Customer/address;4;0;CustomerData.docs:Address/zip;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0/zip;1;0">
 </MAPCOPY>
 </MAP>
 </FLOW>
