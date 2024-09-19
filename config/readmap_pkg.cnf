@@ -1,5 +1,5 @@
 #readAcl for package: TechXConferenceProject
-#Thu Sep 19 06:55:18 GMT 2024
+#Thu Sep 19 06:56:21 GMT 2024
 project.techxconference.documenttypes\:CustomerData=Anonymous
 project.techxconference.documenttypes\:Shipment=Anonymous
 project.techxconference.documenttypes\:SimpleOrder=Anonymous
