@@ -265,7 +265,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">dd, yyyy and click </value>
+  <value name="xml">MMMM dd,yyyy </value>
 </Values>
 </DATA>
 </MAPSET>
