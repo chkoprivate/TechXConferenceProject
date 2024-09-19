@@ -301,15 +301,6 @@
 <MAPCOPY FROM="/Customer;4;0;CustomerData.docs:Customer/company-name;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/company-name;1;0">
 </MAPCOPY>
 
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/Status;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">shipped</value>
-</Values>
-</DATA>
-</MAPSET>
-
 <MAPCOPY FROM="/Customer;4;0;CustomerData.docs:Customer/address;4;0;CustomerData.docs:Address/street;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0/street;1;0">
 </MAPCOPY>
 
@@ -324,5 +315,14 @@
 
 <MAPCOPY FROM="/Customer;4;0;CustomerData.docs:Customer/address;4;0;CustomerData.docs:Address/zip;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0/zip;1;0">
 </MAPCOPY>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/Status;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">shipped</value>
+</Values>
+</DATA>
+</MAPSET>
 </MAP>
 </FLOW>
