@@ -63,12 +63,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">christian</value>
-    <value name="lastModifiedDate">1701106607513</value>
-    <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
-    </record>
+    <value name="lastModifiedDate">1727103456841</value>
     <value name="displayName">failureTransaction</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -91,6 +86,7 @@
         <null name="outputMapSet"/>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -110,6 +106,7 @@
         <null name="mapSet"/>
         <null name="outputMapSet"/>
         <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">1</value>
       </record>
       <record name="/2" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -130,10 +127,12 @@
         <null name="outputMapSet"/>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+        <value name="nodePathForDebug">2</value>
       </record>
       <record name="/3" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">EXIT</value>
+        <value name="nodePathForDebug">3</value>
       </record>
     </record>
   </record>
