@@ -82,3 +82,9 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.1018
+- serviceName: project.techxconference.integrations:failureTransaction
+  packages:
+  - name: TechXConferenceProject
+    version: "1.0"
+  - name: CustomerData
+    version: "1.0"
