@@ -387,7 +387,7 @@
 </MAP>
 </INVOKE>
 
-<EXIT FROM="$flow" SIGNAL="FAILURE" FAILURE-MESSAGE="">
+<EXIT FROM="$flow" SIGNAL="FAILURE" FAILURE-MESSAGE="Failure Transaction Error Message">
   <COMMENT></COMMENT>
 </EXIT>
 </FLOW>
