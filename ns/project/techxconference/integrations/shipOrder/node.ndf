@@ -84,7 +84,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">christian</value>
-    <value name="lastModifiedDate">1727422385806</value>
+    <value name="lastModifiedDate">1727422429910</value>
     <value name="displayName">shipOrder</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -139,7 +139,6 @@
       <null name="/1/6"/>
       <null name="/1/7"/>
       <null name="/1/8"/>
-      <null name="/1/9"/>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
