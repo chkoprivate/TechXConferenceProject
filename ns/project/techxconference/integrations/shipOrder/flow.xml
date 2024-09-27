@@ -162,7 +162,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">project.techxconference.documenttypes:Customer</value>
+        <value name="rec_ref">CustomerData.docs:Customer</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -243,7 +243,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">project.techxconference.documenttypes:Customer</value>
+        <value name="rec_ref">CustomerData.docs:Customer</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -252,42 +252,6 @@
 </MAPSOURCE>
 
   <!-- nodes -->
-
-<MAPINVOKE NAME="Date" SERVICE="pub.date:getCurrentDateString" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
-
-  <!-- nodes -->
-
-<MAP MODE="INVOKEINPUT">
-
-  <!-- nodes -->
-
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/pattern;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">MMMM dd,yyyy </value>
-</Values>
-</DATA>
-</MAPSET>
-</MAP>
-
-<MAP MODE="INVOKEOUTPUT">
-
-  <!-- nodes -->
-
-<MAPCOPY FROM="/value;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShippingDate;1;0">
-</MAPCOPY>
-</MAP>
-</MAPINVOKE>
-
-<MAPCOPY FROM="/SimpleOrder;4;0;project.techxconference.documenttypes:SimpleOrder/Header;2;0/OrderID;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/OrderID;1;0">
-</MAPCOPY>
-
-<MAPCOPY FROM="/SimpleOrder;4;0;project.techxconference.documenttypes:SimpleOrder/Header;2;0/TransactionID;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/TransactionID;1;0">
-</MAPCOPY>
-
-<MAPCOPY FROM="/SimpleOrder;4;0;project.techxconference.documenttypes:SimpleOrder/Items;2;1" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Items;2;1">
-</MAPCOPY>
 
 <MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/id;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/customerID;1;0">
 </MAPCOPY>
@@ -300,15 +264,6 @@
 
 <MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/company-name;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/company-name;1;0">
 </MAPCOPY>
-
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/Status;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">shipped</value>
-</Values>
-</DATA>
-</MAPSET>
 
 <MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/address;4;0;project.techxconference.documenttypes:Address/street;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0/street;1;0">
 </MAPCOPY>
@@ -324,5 +279,14 @@
 
 <MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/address;4;0;project.techxconference.documenttypes:Address/zip;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0/zip;1;0">
 </MAPCOPY>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/Status;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">shipped</value>
+</Values>
+</DATA>
+</MAPSET>
 </MAP>
 </FLOW>

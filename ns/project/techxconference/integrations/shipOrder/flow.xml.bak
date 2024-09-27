@@ -162,7 +162,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">project.techxconference_aa223b9bd6c04f40b6f13ea1229a95d3_export.documenttypes:Customer</value>
+        <value name="rec_ref">project.techxconference.documenttypes:Customer</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -243,7 +243,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">project.techxconference_aa223b9bd6c04f40b6f13ea1229a95d3_export.documenttypes:Customer</value>
+        <value name="rec_ref">project.techxconference.documenttypes:Customer</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -289,16 +289,16 @@
 <MAPCOPY FROM="/SimpleOrder;4;0;project.techxconference.documenttypes:SimpleOrder/Items;2;1" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Items;2;1">
 </MAPCOPY>
 
-<MAPCOPY FROM="/Customer;4;0;project.techxconference_aa223b9bd6c04f40b6f13ea1229a95d3_export.documenttypes:Customer/id;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/customerID;1;0">
+<MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/id;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/customerID;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/Customer;4;0;project.techxconference_aa223b9bd6c04f40b6f13ea1229a95d3_export.documenttypes:Customer/first-name;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/first-name;1;0">
+<MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/first-name;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/first-name;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/Customer;4;0;project.techxconference_aa223b9bd6c04f40b6f13ea1229a95d3_export.documenttypes:Customer/last-name;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/last-name;1;0">
+<MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/last-name;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/last-name;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/Customer;4;0;project.techxconference_aa223b9bd6c04f40b6f13ea1229a95d3_export.documenttypes:Customer/company-name;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/company-name;1;0">
+<MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/company-name;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/company-name;1;0">
 </MAPCOPY>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/Status;1;0">
@@ -310,19 +310,19 @@
 </DATA>
 </MAPSET>
 
-<MAPCOPY FROM="/Customer;4;0;project.techxconference_aa223b9bd6c04f40b6f13ea1229a95d3_export.documenttypes:Customer/address;4;0;project.techxconference.documenttypes:Address/street;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0/street;1;0">
+<MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/address;4;0;project.techxconference.documenttypes:Address/street;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0/street;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/Customer;4;0;project.techxconference_aa223b9bd6c04f40b6f13ea1229a95d3_export.documenttypes:Customer/address;4;0;project.techxconference.documenttypes:Address/city;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0/city;1;0">
+<MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/address;4;0;project.techxconference.documenttypes:Address/city;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0/city;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/Customer;4;0;project.techxconference_aa223b9bd6c04f40b6f13ea1229a95d3_export.documenttypes:Customer/address;4;0;project.techxconference.documenttypes:Address/state;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0/state;1;0">
+<MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/address;4;0;project.techxconference.documenttypes:Address/state;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0/state;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/Customer;4;0;project.techxconference_aa223b9bd6c04f40b6f13ea1229a95d3_export.documenttypes:Customer/address;4;0;project.techxconference.documenttypes:Address/country;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0/country;1;0">
+<MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/address;4;0;project.techxconference.documenttypes:Address/country;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0/country;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/Customer;4;0;project.techxconference_aa223b9bd6c04f40b6f13ea1229a95d3_export.documenttypes:Customer/address;4;0;project.techxconference.documenttypes:Address/zip;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0/zip;1;0">
+<MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/address;4;0;project.techxconference.documenttypes:Address/zip;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0/zip;1;0">
 </MAPCOPY>
 </MAP>
 </FLOW>
