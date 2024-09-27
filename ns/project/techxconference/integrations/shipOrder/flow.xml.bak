@@ -177,14 +177,5 @@
 
 <MAPCOPY FROM="/Customer;4;0;project.techxconference.documenttypes:Customer/address;4;0;project.techxconference.documenttypes:Address/zip;1;0" TO="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/ShipTo;2;0/address;2;0/zip;1;0">
 </MAPCOPY>
-
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/Shipment;4;0;project.techxconference.documenttypes:Shipment/Shipment;2;0/Status;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">shipped</value>
-</Values>
-</DATA>
-</MAPSET>
 </MAP>
 </FLOW>
