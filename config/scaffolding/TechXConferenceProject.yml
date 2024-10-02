@@ -7,12 +7,6 @@ packages:
   gitUrl: https://github.com/chkoprivate/TechXConferenceProject
   gitUsername: chkoprivate
   gitBranch: main
-- name: CustomerData
-  version: "1.0"
-  gitServerName: Git_Christian-Kopecki
-  gitUrl: https://github.ibm.com/Christian-Kopecki
-  gitUsername: Christian-Kopecki
-  gitBranch: main
 services:
 - serviceName: project.techxconference.integrations:shipOrder
   packages:
