@@ -12,8 +12,6 @@ services:
   packages:
   - name: TechXConferenceProject
     version: "1.0"
-  - name: CustomerData
-    version: "1.0"
 - serviceName: CustomerData.impl:getCustomerbyID
   packages:
   - name: CustomerData
